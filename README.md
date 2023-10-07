@@ -1,23 +1,38 @@
-# Maze
+# Maze Solver
 
-There are 4 different premade mazes to choose from.
--100 X 60
--100 X 60 vertical bias
--100 X 60 horizontal bias
--10 X 10 for testing manual mode
--you can also make another size maze if u want
+## Welcome
+Welcome to Maze Solver, a Python project that enables you to navigate through different types of mazes and solve them using various algorithms.
 
-Keys:
+## Features
 
-The game starts out with an animation that removes the walls between cells. To skip this, hit s.
-Then, you have the option to do a bfs(b), dfs(d), or manual mode(m). Once you choose one of these options,
-you can't switch! To skip the dfs and bfs animations, you can hit s again!
+### Premade Mazes
+There are 4 premade mazes available:
+- 100 X 60
+- 100 X 60 with vertical bias
+- 100 X 60 with horizontal bias
+- 10 X 10 for testing manual mode
+- You can also create a custom-sized maze.
 
-To move around, use the arrow keys.
+### Navigation Options
+- **Breadth-First Search (BFS)**: Press 'b'
+- **Depth-First Search (DFS)**: Press 'd'
+- **Manual Mode**: Press 'm'
+- Once you choose a mode, you can't switch. To skip the BFS and DFS animations, press 's' again.
 
-To create a new random maze of the same size, hit r.
+### Movement Controls
+Use the arrow keys to move around the maze.
 
-To switch color modes (normal, heatmap with topLeft being bluest, heatmap with bottomRight being bluest), hit c.
+### Create New Maze
+Press 'r' to generate a new random maze of the same size.
 
-*you can't make a maze larger than 100 X 60!
+### Color Modes
+Switch between different color modes:
+- Normal
+- Heatmap with the top-left corner being the bluest
+- Heatmap with the bottom-right corner being the bluest
+Press 'c' to switch color modes.
 
+### Size Limitation
+Note that you can't create a maze larger than 100 X 60.
+
+Enjoy exploring the mazes and solving them using various algorithms!
