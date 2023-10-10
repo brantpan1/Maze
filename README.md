@@ -1,7 +1,7 @@
 # Maze Solver
 
 ## Welcome
-Welcome to Maze Solver, a Python project that enables you to navigate through different types of mazes and solve them using various algorithms.
+Welcome to Maze Solver, a Java project that enables you to navigate through different types of mazes and solve them using various algorithms.
 
 ## Features
 
